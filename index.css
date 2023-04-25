@@ -72,3 +72,26 @@ nav > ul li:hover .sous{
   margin: 100px 20px;
   height: 1500px;
 }
+
+#div1
+{
+    border: solid black 2px;
+	font-size: 20px;
+    width: 35%;
+    padding-bottom : 20px;
+}
+
+#div2
+{
+	text-align: center;
+    left: 50%;
+	width: 50%;
+    font-size: 20px;
+	border: solid black 2px;
+}
+
+#div3
+{
+	font-size: 20px;
+	border: solid black 2px;
+}
