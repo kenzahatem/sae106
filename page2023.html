@@ -12,6 +12,7 @@
   <script src="js/page2023.js"></script>
 </head>
 <body>
+	<div>
 <header>
 	<div class="header">
 		<a class="menu-btn" href="#">Menu</a>
@@ -24,6 +25,14 @@
 		</div>
 	  </div>
 </header>
+<div class="language-menu">
+	<button id="language-btn">Langues</button>
+	<select id="language-select" onchange="changeLanguage()">
+	  <option value="fr">Français</option>
+	  <option value="en">Anglais</option>
+	</select>
+  </div>
+</div> 
 	<main>
 		<h1 class="title">La Parade Monstrueuse</h1>
 		<div>
@@ -48,7 +57,7 @@
   <div><img src="src/IMG_1227.jpg"></div>
 </div>
 </div>
-<div class="partie droite">
+<div class="partie-droite">
 <div class="recap-section">
 	<h2>Récap de l'expo</h2>
 	<p>La Parade Monstrueuse est une exposition d'art horrifique 
@@ -70,12 +79,15 @@
 		 du surnaturel à travers une variété de médiums, y compris la
 		  peinture, la sculpture, la photographie et l'installation.
 		  La Parade Monstrueuse est une exposition d'art horrifique 
-		  présentant des œuvres </p>
+		  présentant des œuvresion explore les thèmes de la peur, de l'horreur et 
+		  du surnaturel à travers une variété de médiums, y compris la
+		   peinture, la sculpture, la photographie et l'installation.
+		   La Parade Monstrueuse est une exposition d'art horrifique 
+		   y compris la
+		   peinture, la sculpture, la photographie et l'installation.
+		   La Parade Monstrueuse est une exposition d'art horrifique </p>
   </div>
 </div>
-<p class="espace">.<br>
-.<br>
-.<br>. </p>
 </main>
 <footer>
   <div class="footer-left">
@@ -99,13 +111,6 @@
       <li><a href="equipe.html">A propos</a></li>
       <li><a href="formulaire.html">Nous contacter</a></li>
     </ul>
-  </div>
-  <div class="language-menu">
-	<button id="language-btn">Langues</button>
-	<select id="language-select" onchange="changeLanguage()">
-	  <option value="fr">Français</option>
-	  <option value="en">Anglais</option>
-	</select>
   </div>
 </footer>
 </body>

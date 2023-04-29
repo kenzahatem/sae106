@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>page2023</title>
-        <link href="css/page2023.css" type="text/css" rel="stylesheet" />
-        <title>The monster parade</title>
+        <link href="css/page2023.css" type="text/css" rel="stylesheet" >
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
@@ -24,6 +23,13 @@
 		</div>
 	  </div>
 </header>
+<div class="language-menu">
+	<button id="language-btn">Languages</button>
+	<select id="language-select" onchange="changeLanguage()">
+      <option value="en">English</option>
+	  <option value="fr">French</option>
+	</select>
+  </div>
 	<main>
 		<h1 class="title">The Monster Parade</h1>
 		<div>
@@ -48,7 +54,7 @@
   <div><img src="src/IMG_1227.jpg"></div>
 </div>
 </div>
-<div class="partie droite">
+<div class="partie-droite">
 <div class="recap-section">
 	<h2>Summary of the exhibition</h2>
 	<p>La Parade Monstrueuse est une exposition d'art horrifique 
@@ -73,9 +79,6 @@
 		  présentant des œuvres </p>
   </div>
 </div>
-<p class="espace">.<br>
-.<br>
-.<br>. </p>
 </main>
 <footer>
   <div class="footer-left">
@@ -97,15 +100,8 @@
   <div class="footer-right">
     <ul>
       <li><a href="equipe.html">About</a></li>
-      <li><a href="formulaire.html">Contact Us</a></li>
+      <li><a href="formulaireen.html">Contact Us</a></li>
     </ul>
-  </div>
-  <div class="language-menu">
-	<button id="language-btn">Languages</button>
-	<select id="language-select" onchange="changeLanguage()">
-      <option value="en">English</option>
-	  <option value="fr">French</option>
-	</select>
   </div>
 </footer>
 </body>

@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('.slick-carousel').slick({
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows: false,
+      arrows: true,
       dots: false,
       infinite: true,
       speed: 500,
@@ -33,3 +33,5 @@ $(document).ready(function(){
       window.location.href = "page2023en.html";
     }
   }
+console.log("Largeur de la fenêtre : " + window.innerWidth);
+console.log("Hauteur de la fenêtre : " + window.innerHeight);

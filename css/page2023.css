@@ -61,6 +61,7 @@
   }
   .photo-section {
     width: 50%; 
+    height:700px ;
     float: left; 
     padding: 10px 30px 100px 30px ;
     border: 5px solid #fa97ff;
@@ -77,13 +78,10 @@
   
   .slick-carousel img {
     flex: none; 
-    width: 148%; 
-    height: auto;
+    width: 100%; 
+    height: 500px ;
     scroll-snap-align: start;
     margin-right: 20px;
-  }
-  .espace {
-    color : white ; 
   }
   h2 {
     font-family: 'Chiller', cursive ;
@@ -96,12 +94,16 @@
     width: 45%;
     float: right;
     padding: 10px;
-    background-color: #bdbdbd;
+    background-color: #dcdcdc;
     color: black;
     font-family: 'Creepster', cursive;
     box-sizing: border-box;
     border : 5px solid black ;
     
+  }
+  .partie-droite{
+    width :42.4% ;
+    float : right ;
   }
   .recap-section h2 {
     font-size: 2.5em;
@@ -115,7 +117,7 @@
     width: 45%;
     float: right;
     padding: 8.9px;
-    background-color: #bdbdbd;
+    background-color: #dcdcdc;
     color: black;
     font-family: 'Creepster', cursive;
     box-sizing: border-box;
@@ -132,7 +134,12 @@
   .language-menu {
     float: right;
   }
+  .haut{
+    width :100% ;
+  }
   footer {
+  bottom : 0 ;
+  width :98% ;
   background-color: purple;
   color: white;
   display: flex;
