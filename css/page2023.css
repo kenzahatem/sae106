@@ -235,6 +235,10 @@
     line-height: 1.5;
   }
 
+footer a {
+  color: #e9b80F;
+}
+
 .footer-right ul {
   margin: 0;
   padding: 0;
