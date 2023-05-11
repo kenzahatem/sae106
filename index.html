@@ -40,7 +40,11 @@
 
 <div class="partie-droite">
 <div class="recap-section">
-			<p> La Parade Fabuleuse est une exposition merveilleuse et spectaculaire de l'art contemporain. <br>
+			<p> La parade fabuleuse est une exposition visant à représenter la vision merveilleuse et le spectaculaire de l'art contemporain.
+				L'exposition présentera aux spectateurs une occasion de redécouvrir les plus grands classiques à travers les costumes des personnages merveilleux et légendaire. Leur histoire, de l'idée à la réalisation en passant par les nombreux déconvenus des costumiers. Enfin des interviews inédites des différents metteurs en scène et porteurs des costumes qui nous expliqueront leur histoire avec les costumes et les personnages ainsi que leurs interprétations diverses.
+				Avec un peu de chance vous pourrez même croiser de manière fortuite quelques uns de nos contributeurs qui nous font confiance en nous prétend ces magnifiques pièces de collection
+				
+				La Parade Fabuleuse est une exposition merveilleuse et spectaculaire de l'art contemporain. <br>
 			L'exposition présente aux visiteurs une occasion de découvrir une variété d'oeuvre d'art remarquables,
 		chacune racontant sa propre histoire et captivant l'imagination. <br>
 	Cet évènement incontournable vous laissera des souvenirs durables et éblouissants. Vous retrouverez principalement les thèmes de la beauté
@@ -82,7 +86,28 @@ et de l'imagination.</p>
   <div class="footer-right">
     <ul>
       <li><a href="equipe.html">A propos</a></li>
-      <li><a href="formulaire.html">Nous contacter</a></li>
+      <li><button id="myBtn">Nous contacter</button>
+	  <div id="myModal" class="modal">
+		<div class="modal-content">
+		  <span class="close">&times;</span>
+		  <form>
+			<label for="nom">Nom :</label>
+		<input type="text" id="nom" name="nom" required><br>
+
+		<label for="prenom">Prénom :</label>
+		<input type="text" id="prenom" name="prenom" required><br>
+
+		<label for="email">Adresse email :</label>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="commentaire">Commentaire :</label>
+		<textarea id="commentaire" name="commentaire" required></textarea><br>
+
+		<input id='envoyer' type="submit" value="Envoyer">
+		  </form>
+		</div>
+	  </div>
+	</li>
     </ul>
   </div>
 </footer>

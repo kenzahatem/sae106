@@ -127,7 +127,7 @@
   .menu-dropdown {
     display: none;
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 8px;
     background-color: #fff;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -170,18 +170,26 @@
   .photo-section {
     position : relative ;
     z-index : 999 ;
-    width: 50%;
-    height: 350px;
+    width: 45%;
+    height: 650px;
     float: left;
-    border: 5px solid #fa97ff;
-    background-color: rgb(195,150,236);
-    border : 1px solid black ;
+    /*background-color: rgb(195,150,236);
+    border : 1px solid black ;*/
     color: black;
+    justify-content : center ;
+    align-items : center ;
+    display :flex ;
+    left :20px ;
+    margin-top: -10px;
   }
 
   .photo-section img {
     width: 100%;
-    height: 100%;
+    height: 133%;
+    margin : auto ;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    border: 1px double black;
+    border-radius: 0px ;
   }
 
   h2 {
@@ -204,6 +212,7 @@
   .partie-droite{
     width :42.4% ;
     float : right  ;
+    right :50px ;
   }
 
   .recap-section h2 {
@@ -218,7 +227,7 @@
 
   .expo2023-section {
     position: relative ;
-    z-index : 999 ;
+    z-index : 2 ;
     padding: 8.8px;
     text-align: center;
     margin : 0 auto ;
@@ -227,8 +236,12 @@
     font-family: 'Creepster', cursive;
     box-sizing: border-box;
     border : 1px solid black ;
-    margin-top: 550px;
+    margin-top: 1000px;
     width: 50%;
+  }
+  .expo2023-section img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin : auto ;
   }
 
   .interview-section h2 {
@@ -248,7 +261,7 @@
 
   footer {
   bottom :0 ;
-  width :98% ;
+  width :99% ;
   background-color: rgb(195,150,236);
   color: black;
   display: flex;
@@ -293,4 +306,43 @@
 
 .footer-right li:first-child {
   margin-left: 0;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-content {
+  background-color: whitesmoke;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+input {
+  line-height : 2 ;
+  margin-bottom: 10px ;
 }

@@ -119,7 +119,28 @@
   <div class="footer-right">
     <ul>
       <li><a href="equipe.html">A propos</a></li>
-      <li><a href="formulaire.html">Nous contacter</a></li>
+	  <li><button id="myBtn">Nous contacter</button>
+		<div id="myModal" class="modal">
+		  <div class="modal-content">
+			<span class="close">&times;</span>
+			<form>
+			  <label for="nom">Nom :</label>
+		  <input type="text" id="nom" name="nom" required><br>
+  
+		  <label for="prenom">Prénom :</label>
+		  <input type="text" id="prenom" name="prenom" required><br>
+  
+		  <label for="email">Adresse email :</label>
+		  <input type="email" id="email" name="email" required><br>
+  
+		  <label for="commentaire">Commentaire :</label>
+		  <textarea id="commentaire" name="commentaire" required></textarea><br>
+  
+		  <input id='envoyer' type="submit" value="Envoyer">
+			</form>
+		  </div>
+		</div>
+	  </li>
     </ul>
   </div>
 
