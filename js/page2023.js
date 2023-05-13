@@ -36,8 +36,7 @@ $(document).ready(function(){
 console.log("Largeur de la fenêtre : " + window.innerWidth);
 console.log("Hauteur de la fenêtre : " + window.innerHeight);
 document.addEventListener("DOMContentLoaded", function() {
-  console.log("Largeur de la fenêtre : " + window.innerWidth);
-  console.log("Hauteur de la fenêtre : " + window.innerHeight);
+
   
   console.log(document.getElementById("myBtn"));
   
