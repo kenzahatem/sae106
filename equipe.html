@@ -6,6 +6,7 @@
 	<link href="css/equipe.css" type="text/css" rel="stylesheet" />
 	<title> Equipe </title>
   <script src="js/equipe.js"></script>
+  <script src="https://kit.fontawesome.com/56b8d626b9.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div>
@@ -23,7 +24,7 @@
 </header>
 
 <div class="language-menu">
-	<button id="language-btn">Langues</button>
+	<button id="language-btn"><i class="fas fa-language"></i> Langues</button>
 	<select id="language-select" onchange="changeLanguage()">
 	  <option value="fr">Français</option>
 	  <option value="en">Anglais</option>
@@ -104,51 +105,48 @@
 
 
 
-<footer>
-  <div class="footer-left">
-    <h3>Adresse</h3>
-    <p>Centre des arts<br>
-       12-16 rue de la Libération<br>
-       95880 Enghien-les-Bains<br>
-	   <a href="https://www.google.com/maps?q=Centre+des+arts,+12-16+rue+de+la+Lib%C3%A9ration,+95880+Enghien-les-Bains&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj9yJeYvJHxAhWMCsAKHQNqBjwQ_AUoAXoECAEQAw">Google Maps</a></p>
-  </div>
-
-  <div class="footer-medium">
-    <h3>Réseaux sociaux</h3>
-    <p><a href="https://www.instagram.com/enghientourisme/">Instagram</a><br>
-       <a href="https://www.facebook.com/enghientourisme/">Facebook</a><br>
-       <a href="https://www.linkedin.com/company/office-de-tourisme-et-des-congr%C3%A8s-d'enghien-les-bains/">Linkedin</a><br>
-	   <a href="https://www.youtube.com/channel/UC2MFizWwmLT4Q4ckDK15r3w">Youtube</a><br>
-	 </div>
-
-  <div class="footer-right">
-    <ul>
-      <li><a href="equipe.html">A propos</a></li>
-	  <li><button id="myBtn">Nous contacter</button>
-		<div id="myModal" class="modal">
-		  <div class="modal-content">
-			<span class="close">&times;</span>
-			<form>
-			  <label for="nom">Nom :</label>
-		  <input type="text" id="nom" name="nom" required><br>
-  
-		  <label for="prenom">Prénom :</label>
-		  <input type="text" id="prenom" name="prenom" required><br>
-  
-		  <label for="email">Adresse email :</label>
-		  <input type="email" id="email" name="email" required><br>
-  
-		  <label for="commentaire">Commentaire :</label>
-		  <textarea id="commentaire" name="commentaire" required></textarea><br>
-  
-		  <input id='envoyer' type="submit" value="Envoyer">
-			</form>
-		  </div>
+	<footer>
+		<div class="footer-left">
+		  <h3><i class="fa-solid fa-location-dot"></i> Adresse</h3>
+		  <p>Centre des Arts<br>
+			 12-16 rue de la Libération<br>
+			 95880 Enghien-les-Bains<br>
+			 <a href="https://www.google.com/maps?q=Centre+des+arts,+12-16+rue+de+la+Lib%C3%A9ration,+95880+Enghien-les-Bains&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj9yJeYvJHxAhWMCsAKHQNqBjwQ_AUoAXoECAEQAw">Google Maps</a></p>
 		</div>
-	  </li>
-    </ul>
-  </div>
-
-</footer>
+		<div class="footer-medium">
+			<h3>Réseaux sociaux</h3>
+			<p><a href="https://www.instagram.com/enghientourisme/"><span class="instagram"><i class="fa-brands fa-instagram"></i></span> Instagram</a><br>
+			   <a href="https://www.facebook.com/enghientourisme/"><span class="facebook"><i class="fa-brands fa-facebook"></i></span> Facebook</a><br>
+			   <a href="https://www.linkedin.com/company/office-de-tourisme-et-des-congr%C3%A8s-d'enghien-les-bains/"><span class="link" ><i class="fa-brands fa-linkedin"></i></span> Linkedin</a><br>
+			 <a href="https://www.youtube.com/channel/UC2MFizWwmLT4Q4ckDK15r3w"><span class="youtube"><i class="fa-brands fa-youtube"></i></span> Youtube</a><br>
+		   </div>
+		<div class="footer-right">
+		  <ul>
+			<li><a href="equipe.html">A propos <i class="far fa-user"></i></a></li>
+			<li><button id="myBtn">Nous contacter <i class="fa-regular fa-envelope"></i></button>
+			<div id="myModal" class="modal">
+			  <div class="modal-content">
+				<span class="close">&times;</span>
+				<form>
+				  <label for="nom">Nom :</label>
+			  <input type="text" id="nom" name="nom" required><br>
+	  
+			  <label for="prenom">Prénom :</label>
+			  <input type="text" id="prenom" name="prenom" required><br>
+	  
+			  <label for="email">Adresse email :</label>
+			  <input type="email" id="email" name="email" required><br>
+	  
+			  <label for="commentaire">Commentaire :</label>
+			  <textarea id="commentaire" name="commentaire" required></textarea><br>
+	  
+			  <input id='envoyer' type="submit" value="Envoyer">
+				</form>
+			  </div>
+			</div>
+		  </li>
+		  </ul>
+		</div>
+	  </footer>
 </body>
 </html>
