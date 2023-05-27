@@ -100,7 +100,7 @@
   .photo-section{
     font-size: 16px ;
     padding: 10px 30px 80px 30px ;
-    height :700px;
+    height :780px;
   }
 }
 
@@ -218,7 +218,7 @@
 
   .interview-section {
     position : relative ;
-    padding: 80px;
+    padding: 50px;
     width: 100%;
     color: black;
     box-sizing: border-box;
