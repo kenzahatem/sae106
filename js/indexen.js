@@ -1,15 +1,17 @@
-function changeLanguage() {
-  var languageSelect = document.getElementById("language-select");
-  var selectedValue = languageSelect.options[languageSelect.selectedIndex].value;
-  if (selectedValue === "fr") {
-    window.location.href = "index.html";
-  }
-}
+
 document.addEventListener("DOMContentLoaded", function() {
   console.log("Largeur de la fenêtre : " + window.innerWidth);
   console.log("Hauteur de la fenêtre : " + window.innerHeight);
   
   console.log(document.getElementById("myBtn"));
+  //Obtenez le bouton français 
+  var frButtons = document.querySelectorAll(".french");
+
+  frButtons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      window.location.href = "index.html";
+    });
+  });
   
   // Obtenez la popup
   var modal = document.getElementById("myModal");
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var btn = document.getElementById("myBtn");
   
   // Obtenez le bouton de fermeture de la popup
-  var span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("button")[0];
   
   // Lorsque l'utilisateur clique sur le bouton, ouvrez la popup
   btn.onclick = function() {
